@@ -1,0 +1,106 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page Background */
+body {
+    background-color: #f4f9ff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card Container */
+.login {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 520px;
+    padding: 32px 40px;
+    border-radius: 14px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Headings */
+.login h1 {
+    color: #0d6efd;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+legend {
+    text-align: center;
+    color: #6c757d;
+    margin-bottom: 22px;
+    font-size: 15px;
+}
+
+/* Form spacing */
+.mb-3 {
+    margin-bottom: 16px;
+}
+
+/* Labels */
+.form-label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #212529;
+}
+
+/* Inputs & Selects */
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 2px rgba(13, 110, 253, 0.15);
+}
+
+/* Select cursor */
+select.form-control {
+    cursor: pointer;
+}
+
+/* Submit Button */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0d6efd;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #084298;
+}
+
+/* Prediction Result */
+h2 {
+    text-align: center;
+    margin-top: 22px;
+    color: #0d6efd;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .login {
+        padding: 24px;
+    }
+}
